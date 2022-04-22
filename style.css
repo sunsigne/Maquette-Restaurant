@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, Verdana, sans-serif; 
+    line-height: 1.2;
+    background-image: url(img/back-cover.jpg);
+    background-size: 100%;
+}
+
+.wrapper-body {
+    margin: 0 auto;
+    width: 990px;
+    background-color: hsla(358,28%, 95%, 0.85);
+}
+
+/* BOX */
+
+.container {
+    padding: 15px;
+    min-height: 16px;
+}
+
+.container-x {
+    padding: 0 15px;
+}
+
+.wrapper-box {
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.left-box, .right-box, .thumbnail {
+    float : left;
+}
+
+.left-box {
+    width: 280px;
+    min-height: 600px;
+}
+
+.right-box {
+    width: 640px;
+    min-height: 400px;
+    margin-left: 10px;
+}
+
+.thumbnail {
+    margin: 5px;
+    text-align: center;
+}
+
+li {
+    padding: 0 10px 0 5px;
+}
+
+/* TITLE */
+
+h2, h3, h4, figcaption, strong, nav a {
+    font-weight: bold;
+}
+
+h2, h3, h4, section {
+    padding: 15px 0;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3, .h3 {
+    font-size: 18px;
+}
+
+h4, .h4 {
+    font-size: 16px;
+}
+
+/* HR */
+
+hr {
+    height: 1px;
+    background-color: #000;
+    border-color : none;
+}
+
+/* LINKS */
+
+nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #d86c0c;
+}
+
+figcaption a {
+    color: #b32;
+}
+
+figcaption a:hover {
+    color: #888
+}
+
+
+/* OTHER */
+
+li {
+    border-right: 1px solid #000;
+    display: inline;
+}
+
+.pt-0 {
+    padding-top: 0;
+}
+
+.pb-32 {
+    padding-bottom: 32px;
+}
+
+.article-legend {
+    font-size: 14px;
+}
+
+.article-title {
+    padding-bottom: 0;
+}
+
+.logo {
+    text-align: center;
+    padding: 30px;
+}
+
+h1, .copy {
+    text-align: right;
+    font-style: italic;
+}
+
+.copy {
+    padding-top: 20px;
+    font-size: 12px;
+}
